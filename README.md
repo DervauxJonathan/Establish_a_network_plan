@@ -74,4 +74,24 @@
 - Default route to Router2
 - IP Route:
   - VLAN 10 => 192.168.3/27
-  - VL
+  - VLAN 20 => 192.168.4/27
+  - VLAN 30 => 192.168.5/26
+
+## Security Measures
+- Both routers are protected by RADIUS, providing:
+  1. Reduced risk of credential compromise if a network device is compromised.
+  2. Stronger password policies enforced by the RADIUS server.
+  3. Centralized management of user accounts and permissions.
+
+## ACL
+- Protecting Server from the outside network.
+
+## Cost Breakdown
+- 2x Router 911 = 1700€ (850€ each)
+- 1x Switch 3560-24PS layer 3 = 1500€
+- 4x Switch 2950T-24 = 2200€ (550€ each)
+- 1x Switch 2960-24TT = 1500€
+- 3x Server = 6000€ (2000€ each)
+- Total cost = 12,900€
+
+- 33x Computers = 33,000€
